@@ -4,6 +4,7 @@ from odoo import models, fields, api
 
 class my_module(models.Model):
     _name = 'my_module.my_module'
+    _description = 'py test description'
 
     name = fields.Char()
     value = fields.Integer()
