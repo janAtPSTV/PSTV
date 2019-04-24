@@ -16,7 +16,7 @@
     'version': '0.4',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'sales'],
 
     # always loaded
     'data': [
@@ -31,5 +31,5 @@
     'sequence': 1,
     'application': True,
 #    'installable': True,
-    'auto_install': False,
+    'auto_install': True,
 }
