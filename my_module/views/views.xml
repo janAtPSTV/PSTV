@@ -15,7 +15,7 @@
                   <field name="start_datetime"/>
                 </group>
             </sheet>
-        </tree>
+        </form>
       </field>
     </record>
 
